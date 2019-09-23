@@ -35,6 +35,7 @@ function next(){
     output.setAttribute('type', 'text');
     output.placeholder = ">";
     document.getElementById("playground").appendChild(output);
+    var kik = document.getElementsByTagName("input");
 }
 }
 
