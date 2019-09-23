@@ -24,10 +24,14 @@ var my_data = [
     var output = document.createElement("p");    
     output.innerHTML = my_data[0].show_data;
     document.getElementById("playground").appendChild(output);
+    next();
 
    }
    else{
-    console.log("Your Command is not running..."+kik[kik.length-1].value);
+    var output = document.createElement("p");    
+    output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
+    document.getElementById("playground").appendChild(output);
+    next();
    }
 }
 });
