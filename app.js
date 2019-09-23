@@ -37,7 +37,6 @@ function next(){
     var output = document.createElement("input"); 
     output.setAttribute('type', 'text');
     output.placeholder = ">";
-    output.innerHTML = "I am Cool";
     document.getElementById("playground").appendChild(output);
 }
 }
