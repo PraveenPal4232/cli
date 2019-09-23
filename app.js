@@ -12,7 +12,7 @@ var my_data = [
     function run_task(){
       console.log("Your camand is runing");
     }
-    var kik = document.getElementsByClassName("get_data");
+    var kik = document.getElementsByTagName("input");
     
     kik[kik.length-1].addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
@@ -34,8 +34,10 @@ var my_data = [
     next();
    }
 function next(){
-    var output = document.createElement("text"); 
-    output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
+    var output = document.createElement("input"); 
+    output.setAttribute('type', 'text');
+    output.placeholder = ">";
+    output.innerHTML = "I am Cool";
     document.getElementById("playground").appendChild(output);
 }
 }
