@@ -20,6 +20,11 @@ var my_data = [
    if(my_data.some(command => command.data_key === kik[kik.length-1].value)){
     event.preventDefault();
     console.log("Your Command is running..."+kik[kik.length-1].value);
+
+    var output = document.createElement("p");    
+    output.innerHTML = my_data[0].show_data;
+    document.getElementById("playground").appendChild(output);
+
    }
    else{
     console.log("Your Command is not running..."+kik[kik.length-1].value);
