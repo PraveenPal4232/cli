@@ -10,3 +10,11 @@ body{
     color: green;
     padding: 10vh 10vw;
 }
+.get_data{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: green;
+    font-family: 'Lekton', sans-serif;
+    font-size: 1em;
+}
