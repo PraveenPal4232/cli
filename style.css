@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lekton&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Lekton', sans-serif;
     background-color: black;
     color: green;
+    padding: 10vh 10vw;
 }
