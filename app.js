@@ -9,6 +9,26 @@ var my_data = [
       data_key:"social",
       show_data:"Hello World, Social Data",
     },
+    {
+      id:1,
+      data_key:"social",
+      show_data:"Hello World, Social Data",
+    },
+    {
+      id:1,
+      data_key:"social",
+      show_data:"Hello World, Social Data",
+    },
+    {
+      id:1,
+      data_key:"social",
+      show_data:"Hello World, Social Data",
+    },
+    {
+      id:1,
+      data_key:"social",
+      show_data:"Hello World, Social Data",
+    },
     ];
 
     var kik = document.getElementsByTagName("input");
