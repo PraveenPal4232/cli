@@ -20,3 +20,6 @@ body{
     font-family: 'Lekton', sans-serif;
     font-size: 1em;
 }
+.get_data::placeholder{
+    color: green; 
+}
