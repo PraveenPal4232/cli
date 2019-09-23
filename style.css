@@ -9,6 +9,8 @@ body{
     background-color: black;
     color: green;
     padding: 10vh 10vw;
+    border:1px green dashed;
+    min-height: 100vh;
 }
 .get_data{
     outline: none;
