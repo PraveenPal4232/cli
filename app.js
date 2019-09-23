@@ -33,5 +33,11 @@ var my_data = [
     document.getElementById("playground").appendChild(output);
     next();
    }
+function next(){
+    var output = document.createElement("text"); 
+    output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
+    document.getElementById("playground").appendChild(output);
 }
+}
+
 });

@@ -12,7 +12,7 @@ body{
     border:1px chartreuse dashed;
     min-height: 100vh;
 }
-.get_data{
+input{
     outline: none;
     border: none;
     background-color: transparent;
@@ -20,6 +20,6 @@ body{
     font-family: 'Lekton', sans-serif;
     font-size: 1em;
 }
-.get_data::placeholder{
+input::placeholder{
     color: chartreuse; 
 }
