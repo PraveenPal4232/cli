@@ -7,19 +7,19 @@
 body{
     font-family: 'Lekton', sans-serif;
     background-color: black;
-    color: green;
+    color: chartreuse;
     padding: 10vh 10vw;
-    border:1px green dashed;
+    border:1px chartreuse dashed;
     min-height: 100vh;
 }
 .get_data{
     outline: none;
     border: none;
     background-color: transparent;
-    color: green;
+    color: chartreuse;
     font-family: 'Lekton', sans-serif;
     font-size: 1em;
 }
 .get_data::placeholder{
-    color: green; 
+    color: chartreuse; 
 }
