@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway Dots', cursive;
+    background-color: black;
+    color: green;
+}
