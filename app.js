@@ -9,9 +9,6 @@ var my_data = [
     },
     ];
 
-    function run_task(){
-      console.log("Your camand is runing");
-    }
     var kik = document.getElementsByTagName("input");
     
     kik[kik.length-1].addEventListener("keyup", function(event) {
