@@ -1,17 +1,17 @@
 var my_data = [
     {
       id:0,
+      data_key:"about",
+      show_data:"I’m front-end and UI/UX developer based in New Delhi.",
+    },
+    {
+      id:1,
       data_key:"bio",
-      show_data:"Hello World, Bio",
+      show_data:"#FrontEnd Developer, #UI & #UX Designer,enthusiastic #webdev , and architect of my #Dreams",
     },
     {
-      id:1,
-      data_key:"social",
-      show_data:"Hello World, Social Data",
-    },
-    {
-      id:1,
-      data_key:"social",
+      id:2,
+      data_key:"contact",
       show_data:"Hello World, Social Data",
     },
     {
