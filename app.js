@@ -41,7 +41,7 @@ var my_data = [
     console.log("Your Command is running..."+kik[kik.length-1].value);
 
     var output = document.createElement("p");    
-    output.innerHTML = my_data[command.data_key].show_data;
+    output.innerHTML = my_data[1].show_data;
     document.getElementById("playground").appendChild(output);
     next();
 
