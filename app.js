@@ -27,7 +27,29 @@ var my_data = [
     {
       id:5,
       data_key:"quote",
-      show_data:"Hello World, Social Data",
+      show_data:[
+        "There is no spoon.",
+        "Follow the white rabbit.",
+        "Don't think you are, know you are.",
+        "There's a difference between knowing the path and walking the path.",
+        "Free your mind",
+        "I can only show you the door. You're the one that has to walk through it.",
+        "The time has come to make a choice.",
+        "Choi: \"It just sounds to me like you need to unplug, man.",
+        "You've been living in a dream world, Neo.",
+        "What is \"real\"? How do you define \"real\"?",
+        "Welcome to the real world.",
+        "Because you have been down there Neo, you know that road, you know exactly where it ends. And I know that's not where you want to be.",
+        "A déjà vu is usually a glitch in the Matrix. It happens when they change something.",
+        "Do you believe that my being stronger or faster has anything to do with my muscles in this place? Do you think that's air you're breathing now?",
+        "Neo: I know kung fu. \nMorpheus: [eyeing him, hand on chin] Show me.",
+        "Trinity: Neo... nobody has ever done this before. \nNeo: That's why it's going to work.",
+        "Neo: I thought it wasn't real. \nMorpheus: Your mind makes it real.",
+        "The answer is out there, Neo, and it's looking for you, and it will find you if you want it to.",
+        "So what do you need? Besides a miracle.",
+        "I can only show you the door. You're the one that has to walk through it.",
+        "Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
+      ],
     },
     ];
 
