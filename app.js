@@ -1,32 +1,32 @@
 var my_data = [
     {
       id:0,
-      data_key:"about",
-      show_data:"I’m front-end and UI/UX developer based in New Delhi.",
-    },
-    {
-      id:1,
       data_key:"bio",
       show_data:"#FrontEnd Developer, #UI & #UX Designer,enthusiastic #webdev , and architect of my #Dreams",
     },
     {
+      id:1,
+      data_key:"about",
+      show_data:"I'm a front-end and UI/UX developer based in New Delhi, India. I am specialised in all things HTML, CSS, and a little bit JavaScript, but passionate about all aspects of technology. I partner with design teams to execute and build beautiful, progressive Web user interfaces and design systems, with a strong focus on responsive design, performance, and accessibility, using the latest front-end design techniques.",
+    },
+    {
       id:2,
+      data_key:"skills",
+      show_data:"Html5 , Css3, Javascript, Json, Api and Progresive Web Apps.",
+    },
+    {
+      id:3,
       data_key:"contact",
-      show_data:"Hello World, Social Data",
+      show_data:"praveenpal4232@gmail.com",
     },
     {
-      id:1,
+      id:4,
       data_key:"social",
-      show_data:"Hello World, Social Data",
+      show_data:"Twitter, Lindein and Facebook.",
     },
     {
-      id:1,
-      data_key:"social",
-      show_data:"Hello World, Social Data",
-    },
-    {
-      id:1,
-      data_key:"social",
+      id:5,
+      data_key:"quote",
       show_data:"Hello World, Social Data",
     },
     ];
