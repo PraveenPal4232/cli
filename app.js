@@ -51,6 +51,11 @@ var my_data = [
         "Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
       ],
     },
+    {
+      id:6,
+      data_key:"clear",
+      show_data:"Are you sure?",
+    },
     ];
 
     var kik = document.getElementsByTagName("input");
@@ -58,12 +63,16 @@ var my_data = [
     kik[kik.length-1].addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
 
-   if(my_data.some(command => command.data_key === kik[kik.length-1].value)){
-    event.preventDefault();
+   for(i=0;i<my_data.length;i++){
+     if(kik[kik.length-1].value == my_data[i].data_key){
+       var key = i;
+       break;
+     }
+   }
     console.log("Your Command is running..."+kik[kik.length-1].value);
 
     var output = document.createElement("p");    
-    output.innerHTML = my_data[1].show_data;
+    output.innerHTML = my_data[key].show_data;
     document.getElementById("playground").appendChild(output);
     next();
 
@@ -84,4 +93,4 @@ function next(){
 }
 }
 
-});
+);
