@@ -58,6 +58,7 @@ var my_data = [
     },
     ];
 
+    var kik = document.getElementsByTagName("input");
     list_command = ["bio","about","skills","contact","social","quote","clear"];
     kik[kik.length-1].addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
@@ -83,8 +84,8 @@ var my_data = [
     output.setAttribute('type', 'text');
     output.placeholder = ">";
     document.getElementById("playground").appendChild(output);
-    var kik = document.getElementsByTagName("input");
   }
+  kik = document.getElementsByTagName("input");
 }
 }
 
