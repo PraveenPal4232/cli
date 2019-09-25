@@ -79,6 +79,14 @@ var my_data = [
     next();
    }
 
+   function no_run_command(){
+    console.log("No Command is running..."+boom.value);
+    var output = document.createElement("p");    
+    output.innerHTML = "Sorry Error";
+    document.getElementById("playground").appendChild(output);
+    next();
+   }
+
 
     function next(){
     var output = document.createElement("input"); 
