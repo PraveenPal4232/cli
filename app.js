@@ -58,20 +58,20 @@ var my_data = [
     },
     ];
 
-    var boom = document.getElementById("playground").children[k.childElementCount-1];
+    var k = document.getElementById("playground");
     list_command = ["bio","about","skills","contact","social","quote","clear"];
-    boom.addEventListener("keyup", function(event) {
+    k.children[k.childElementCount-1].addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
     var key;
     for(i=0;i<my_data.length;i++){
-    if( list_command.includes(boom.value) === true){
-      key = list_command.indexOf(boom.value);
+    if( list_command.includes(k.children[k.childElementCount-1].value) === true){
+      key = list_command.indexOf(k.children[k.childElementCount-1].value);
       run_command();
     }
    }
   
    function run_command(){
-    console.log("Your Command is running..."+boom.value);
+    console.log("Your Command is running..."+k.children[k.childElementCount-1].value);
     var output = document.createElement("p");    
     output.innerHTML = my_data[key].show_data;
     document.getElementById("playground").appendChild(output);
