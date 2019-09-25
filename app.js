@@ -92,7 +92,7 @@ var my_data = [
     var output = document.createElement("input"); 
     output.setAttribute('type', 'text');
     output.placeholder = ">";
-    output.onkeydown = "lool()";
+    output.on
     document.getElementById("playground").appendChild(output);
     k = document.getElementById("playground");
   }
