@@ -84,8 +84,8 @@ var my_data = [
     output.setAttribute('type', 'text');
     output.placeholder = ">";
     document.getElementById("playground").appendChild(output);
+    kik = document.getElementsByTagName("input");
   }
-  kik = document.getElementsByTagName("input");
 }
 }
 
