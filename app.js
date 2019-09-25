@@ -67,24 +67,30 @@ var my_data = [
      if(kik[kik.length-1].value == my_data[i].data_key){
        var key = i;
        break;
+       run_command();
+     }
+     else{
+       run_no_command();
      }
    }
+  
+   function run_command(){
     console.log("Your Command is running..."+kik[kik.length-1].value);
-
     var output = document.createElement("p");    
     output.innerHTML = my_data[key].show_data;
     document.getElementById("playground").appendChild(output);
     next();
+   }
 
    }
-   else{
+   function run_command(){
     console.log("Your Command is not running..."+kik[kik.length-1].value);
     var output = document.createElement("p");    
     output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
     document.getElementById("playground").appendChild(output);
     next();
    }
-function next(){
+    function next(){
     var output = document.createElement("input"); 
     output.setAttribute('type', 'text');
     output.placeholder = ">";
