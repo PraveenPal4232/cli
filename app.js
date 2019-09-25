@@ -58,20 +58,20 @@ var my_data = [
     },
     ];
 
-    var kik = document.getElementsByTagName("input");
+    var boom = document.getElementById("playground").children[k.childElementCount-1];
     list_command = ["bio","about","skills","contact","social","quote","clear"];
-    kik[kik.length-1].addEventListener("keyup", function(event) {
+    boom.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
     var key;
     for(i=0;i<my_data.length;i++){
-    if( list_command.includes(kik[kik.length-1].value) === true){
-      key = list_command.indexOf(kik[kik.length-1].value);
+    if( list_command.includes(boom.value) === true){
+      key = list_command.indexOf(boom.value);
       run_command();
     }
    }
   
    function run_command(){
-    console.log("Your Command is running..."+kik[kik.length-1].value);
+    console.log("Your Command is running..."+boom.value);
     var output = document.createElement("p");    
     output.innerHTML = my_data[key].show_data;
     document.getElementById("playground").appendChild(output);
