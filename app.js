@@ -58,15 +58,17 @@ var my_data = [
     },
     ];
 
-    var k = document.getElementById("playground");
     list_command = ["bio","about","skills","contact","social","quote","clear"];
-    k.children[k.childElementCount-1].addEventListener("keyup", function(event) {
+    function lool() {
     if (event.keyCode === 13) {
+    var boom = document.getElementById("playground").lastElementChild;
     var key;
-    for(i=0;i<my_data.length;i++){
     if( list_command.includes(k.children[k.childElementCount-1].value) === true){
       key = list_command.indexOf(k.children[k.childElementCount-1].value);
       run_command();
+    }
+    else{
+
     }
    }
   
@@ -84,9 +86,6 @@ var my_data = [
     output.setAttribute('type', 'text');
     output.placeholder = ">";
     document.getElementById("playground").appendChild(output);
-    kik = document.getElementsByTagName("input");
+    k = document.getElementById("playground");
   }
 }
-}
-
-);
