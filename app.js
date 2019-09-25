@@ -94,6 +94,5 @@ var my_data = [
     output.placeholder = ">";
     output.onkeydown = "lol()";
     document.getElementById("playground").appendChild(output);
-    k = document.getElementById("playground");
   }
 }
