@@ -64,8 +64,8 @@ var my_data = [
     if (event.keyCode === 13) {
     var key;
     for(i=0;i<my_data.length;i++){
-    if( list_command.includes(kik[kik.length-1].value) == true){
-      key = list_command.includes(kik[kik.length-1].value);
+    if( list_command.includes(kik[kik.length-1].value) === true){
+      key = list_command.indexOf(kik[kik.length-1].value);
       run_command();
     }
    }
