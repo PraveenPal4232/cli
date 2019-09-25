@@ -62,11 +62,10 @@ var my_data = [
     
     kik[kik.length-1].addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
-
+    var key;
    for(i=0;i<my_data.length;i++){
      if(kik[kik.length-1].value == my_data[i].data_key){
-       var key = i;
-       break;
+       key = i;
        run_command();
      }
      else{
