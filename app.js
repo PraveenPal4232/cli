@@ -84,6 +84,7 @@ var my_data = [
     var output = document.createElement("input"); 
     output.setAttribute('type', 'text');
     output.placeholder = ">";
+    output.onclick = "lool()";
     document.getElementById("playground").appendChild(output);
     k = document.getElementById("playground");
   }
