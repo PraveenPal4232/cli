@@ -87,7 +87,6 @@ var my_data = [
     next();
    }
 
-
     function next(){
     var output = document.createElement("input"); 
     output.setAttribute('type', 'text');
