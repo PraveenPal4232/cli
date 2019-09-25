@@ -58,13 +58,13 @@ var my_data = [
     },
     ];
 
-    var kik = document.getElementsByTagName("input");
+    list_command = ["bio","about","skills","contact","social","quote","clear"];
     kik[kik.length-1].addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
     var key;
     for(i=0;i<my_data.length;i++){
-    if(kik[kik.length-1].value == my_data[i].data_key){
-      key = i;
+    if( fruits.includes(kik[kik.length-1].value) == true){
+      key = fruits.includes(kik[kik.length-1].value);
       run_command();
     }
    }
