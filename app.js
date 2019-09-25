@@ -59,18 +59,17 @@ var my_data = [
     ];
 
     var kik = document.getElementsByTagName("input");
-    
     kik[kik.length-1].addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
     var key;
-   for(i=0;i<my_data.length;i++){
-     if(kik[kik.length-1].value == my_data[i].data_key){
-       key = i;
-       run_command();
-     }
-     else{
-       run_no_command();
-     }
+    for(i=0;i<my_data.length;i++){
+    if(kik[kik.length-1].value == my_data[i].data_key){
+      key = i;
+      run_command();
+    }
+    else{
+      run_no_command();
+    }
    }
   
    function run_command(){
@@ -81,7 +80,6 @@ var my_data = [
     next();
    }
 
-   }
 
     function next(){
     var output = document.createElement("input"); 
@@ -89,6 +87,7 @@ var my_data = [
     output.placeholder = ">";
     document.getElementById("playground").appendChild(output);
     var kik = document.getElementsByTagName("input");
+  }
 }
 }
 
