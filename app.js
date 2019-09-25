@@ -67,9 +67,6 @@ var my_data = [
       key = i;
       run_command();
     }
-    else{
-      run_no_command();
-    }
    }
   
    function run_command(){
