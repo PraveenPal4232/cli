@@ -67,7 +67,7 @@ var my_data = [
       run_command();
     }
     else{
-
+      no_run_command();
     }
    }
   
