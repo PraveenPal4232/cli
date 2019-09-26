@@ -41,7 +41,7 @@ var my_data = [
         "People must learn to hate. And if they can learn to hate, they can be taught to love.",
         "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
         "Spend your free time the way you like, not the way you think you’re supposed to.",
-        "Neo: I know kung fu. \nMorpheus: [eyeing him, hand on chin] Show me.",
+        "Expect the best. Prepare for the worst. Capitalize on what comes.",
         "Trinity: Neo... nobody has ever done this before. \nNeo: That's why it's going to work.",
         "Neo: I thought it wasn't real. \nMorpheus: Your mind makes it real.",
         "The answer is out there, Neo, and it's looking for you, and it will find you if you want it to.",
