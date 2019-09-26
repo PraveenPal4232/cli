@@ -40,7 +40,7 @@ var my_data = [
         "When obstacles arise, you change your direction to reach your goal; you do not change your decision to get there.",
         "People must learn to hate. And if they can learn to hate, they can be taught to love.",
         "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
-        "Do you believe that my being stronger or faster has anything to do with my muscles in this place? Do you think that's air you're breathing now?",
+        "Spend your free time the way you like, not the way you think you’re supposed to.",
         "Neo: I know kung fu. \nMorpheus: [eyeing him, hand on chin] Show me.",
         "Trinity: Neo... nobody has ever done this before. \nNeo: That's why it's going to work.",
         "Neo: I thought it wasn't real. \nMorpheus: Your mind makes it real.",
