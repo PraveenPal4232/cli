@@ -43,8 +43,8 @@ var my_data = [
         "Spend your free time the way you like, not the way you think you’re supposed to.",
         "Expect the best. Prepare for the worst. Capitalize on what comes.",
         "A true leader has the confidence to stand alone, the courage to make tough decisions, and the compassion to listen to the needs of others. He does not set out to be a leader, but becomes one by the equality of his actions and the integrity of his intent.",
-        "Neo: I thought it wasn't real. \nMorpheus: Your mind makes it real.",
-        "The answer is out there, Neo, and it's looking for you, and it will find you if you want it to.",
+        "Life doesn’t run away from nobody. Life runs at people.",
+        "In order to succeed, your desire for success should be greater than your fear of failure.",
         "So what do you need? Besides a miracle.",
         "I can only show you the door. You're the one that has to walk through it.",
         "Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
