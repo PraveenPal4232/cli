@@ -48,7 +48,7 @@ var my_data = [
         "Too many of us are not living our dreams because we are living our fears.",
         "If the only prayer you ever say in your entire life is ‘Thank you!’, it will be enough.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
-        "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
+        "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
