@@ -28,7 +28,7 @@ var my_data = [
       id:5,
       data_key:"quote",
       show_data:[
-        "There is no spoon.",
+        "Failure is simply the opportunity to begin again, this time more intelligently.",
         "Follow the white rabbit.",
         "Don't think you are, know you are.",
         "There's a difference between knowing the path and walking the path.",
