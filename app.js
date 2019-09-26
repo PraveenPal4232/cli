@@ -32,7 +32,7 @@ var my_data = [
         "A person who never made a mistake never tried anything new.",
         "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
         "Kindness is the language which the deaf can hear and the blind can see.",
-        "I can only show you the door. You're the one that has to walk through it.",
+        "Kindness is the language which the deaf can hear and the blind can see.",
         "The time has come to make a choice.",
         "Choi: \"It just sounds to me like you need to unplug, man.",
         "You've been living in a dream world, Neo.",
