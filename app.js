@@ -49,7 +49,7 @@ var my_data = [
         "If the only prayer you ever say in your entire life is ‘Thank you!’, it will be enough.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
         "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
-        "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
+        "Failure is not the opposite of success. It’s part of success.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
