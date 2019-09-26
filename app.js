@@ -38,7 +38,7 @@ var my_data = [
         "Once you replace negative thoughts with positive ones, you’ll start having positive results.",
         "You build on failure. You use it as a stepping stone. Close the door on the past. You don’t try to forget the mistakes, but you don’t dwell on it. You don’t let it have any of your energy, or any of your time, or any of your space.”",
         "When obstacles arise, you change your direction to reach your goal; you do not change your decision to get there.",
-        "Because you have been down there Neo, you know that road, you know exactly where it ends. And I know that's not where you want to be.",
+        "People must learn to hate. And if they can learn to hate, they can be taught to love.",
         "A déjà vu is usually a glitch in the Matrix. It happens when they change something.",
         "Do you believe that my being stronger or faster has anything to do with my muscles in this place? Do you think that's air you're breathing now?",
         "Neo: I know kung fu. \nMorpheus: [eyeing him, hand on chin] Show me.",
