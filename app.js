@@ -30,7 +30,7 @@ var my_data = [
       show_data:[
         "Failure is simply the opportunity to begin again, this time more intelligently.",
         "A person who never made a mistake never tried anything new.",
-        "Don't think you are, know you are.",
+        "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
         "There's a difference between knowing the path and walking the path.",
         "Free your mind",
         "I can only show you the door. You're the one that has to walk through it.",
