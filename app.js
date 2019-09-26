@@ -51,7 +51,7 @@ var my_data = [
         "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
         "Failure is not the opposite of success. It’s part of success.",
         "No one has ever become poor by giving.",
-        "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
+        "No matter what people tell you, words and ideas can change the world.",
         "A man must be big enough to admit his mistakes, smart enough to profit from them and strong enough to correct them.",
       ],
     },
