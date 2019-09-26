@@ -45,7 +45,7 @@ var my_data = [
         "A true leader has the confidence to stand alone, the courage to make tough decisions, and the compassion to listen to the needs of others. He does not set out to be a leader, but becomes one by the equality of his actions and the integrity of his intent.",
         "Life doesn’t run away from nobody. Life runs at people.",
         "In order to succeed, your desire for success should be greater than your fear of failure.",
-        "So what do you need? Besides a miracle.",
+        "Too many of us are not living our dreams because we are living our fears.",
         "I can only show you the door. You're the one that has to walk through it.",
         "Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
       ],
