@@ -46,7 +46,7 @@ var my_data = [
         "Life doesn’t run away from nobody. Life runs at people.",
         "In order to succeed, your desire for success should be greater than your fear of failure.",
         "Too many of us are not living our dreams because we are living our fears.",
-        "I can only show you the door. You're the one that has to walk through it.",
+        "If the only prayer you ever say in your entire life is ‘Thank you!’, it will be enough.",
         "Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
       ],
     },
