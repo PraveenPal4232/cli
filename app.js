@@ -29,7 +29,7 @@ var my_data = [
       data_key:"quote",
       show_data:[
         "Failure is simply the opportunity to begin again, this time more intelligently.",
-        "Follow the white rabbit.",
+        "A person who never made a mistake never tried anything new.",
         "Don't think you are, know you are.",
         "There's a difference between knowing the path and walking the path.",
         "Free your mind",
