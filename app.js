@@ -99,3 +99,5 @@ var my_data = [
     document.getElementById("playground").appendChild(output);
   }
 }
+
+console.log("");
