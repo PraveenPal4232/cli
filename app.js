@@ -62,10 +62,11 @@ var my_data = [
     },
     ];
 
+    var boom = document.getElementById("playground").lastElementChild;
+
     list_command = ["bio","about","skills","contact","social","quote","clear"];
     function lool(){
     if (event.keyCode === 13) {
-    var boom = document.getElementById("playground").lastElementChild;
     if( list_command.includes(boom.value) == true){
       var key = list_command.indexOf(boom.value);
       run_command();
