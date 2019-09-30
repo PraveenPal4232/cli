@@ -63,6 +63,7 @@ var my_data = [
     ];
 
     var boom = document.getElementById("playground").lastElementChild;
+    boom.addEventListener("keydown", lool);
 
     list_command = ["bio","about","skills","contact","social","quote","clear"];
     function lool(){
