@@ -99,7 +99,7 @@ var my_data = [
     output.placeholder = ">";
     output.onkeydown = "lool()";
     document.getElementById("playground").appendChild(output);
-    var boom = document.getElementById("playground").lastElementChild;
+    boom = document.getElementById("playground").lastElementChild;
   }
 }
 
