@@ -62,15 +62,10 @@ var my_data = [
     },
     ];
 
-    start_game();
-    function start_game(){
-      var boom = document.getElementById("playground").lastElementChild;
-      console.log(boom);
-    }
-
     list_command = ["bio","about","skills","contact","social","quote","clear"];
     function lool(){
     if (event.keyCode === 13) {
+    var boom = document.getElementById("playground").lastElementChild;
     if( list_command.includes(boom.value) == true){
       var key = list_command.indexOf(boom.value);
       run_command();
@@ -103,6 +98,7 @@ var my_data = [
     output.onkeydown = "lool()";
     output.onkeyup = "lool()";
     document.getElementById("playground").appendChild(output);
+    lool();
   }
 }
 
