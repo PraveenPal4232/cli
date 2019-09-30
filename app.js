@@ -96,7 +96,6 @@ var my_data = [
     output.setAttribute('type', 'text');
     output.placeholder = ">";
     output.onkeydown = "lool()";
-    output.onkeyup = "lool()";
     document.getElementById("playground").appendChild(output);
     lool();
   }
