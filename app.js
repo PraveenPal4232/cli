@@ -95,8 +95,8 @@ var my_data = [
     var output = document.createElement("input"); 
     output.setAttribute('type', 'text');
     output.placeholder = ">";
-    output.onkeydown = "lol()";
-    output.onkeyup = "lol()";
+    output.onkeydown = "lool()";
+    output.onkeyup = "lool()";
     document.getElementById("playground").appendChild(output);
   }
 }
