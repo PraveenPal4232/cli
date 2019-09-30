@@ -98,7 +98,6 @@ var my_data = [
     output.placeholder = ">";
     output.onkeydown = "lool()";
     document.getElementById("playground").appendChild(output);
-    lool();
   }
 }
 
