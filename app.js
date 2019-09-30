@@ -62,13 +62,8 @@ var my_data = [
     },
     ];
 
-    run_game();
-    function run_game(){
-      var boom = document.getElementById("playground").lastElementChild;
-      boom.addEventListener("keydown", lool);
-      function lool(neo);
-    }
-    
+    var boom = document.getElementById("playground").lastElementChild;
+    boom.addEventListener("keydown", lool);
 
     list_command = ["bio","about","skills","contact","social","quote","clear"];
     function lool(){
@@ -104,6 +99,7 @@ var my_data = [
     output.placeholder = ">";
     output.onkeydown = "lool()";
     document.getElementById("playground").appendChild(output);
+    var boom = document.getElementById("playground").lastElementChild;
   }
 }
 
