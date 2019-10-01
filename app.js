@@ -62,7 +62,4 @@ var my_data = [
     },
     ];
 
-    var boom = document.getElementById("playground").lastElementChild;
-    boom.addEventListener("keydown", lool);
-
     
