@@ -63,7 +63,7 @@ var my_data = [
     ];
 
     // Get the input field
-    var input = document.getElementById("myList").lastChild.innerHTML;
+    var input = document.getElementById("myList").lastChild;
 
 // Execute a function when the user releases a key on the keyboard
 input.addEventListener("keyup", function(event) {
