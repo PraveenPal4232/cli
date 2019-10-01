@@ -64,6 +64,7 @@ var my_data = [
 
     // Get the input field
     var input = document.getElementById("playground").lastChild;
+    console.log(input);
 
 // Execute a function when the user releases a key on the keyboard
 input.addEventListener("keyup", function(event) {
