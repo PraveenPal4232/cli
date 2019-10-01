@@ -65,42 +65,4 @@ var my_data = [
     var boom = document.getElementById("playground").lastElementChild;
     boom.addEventListener("keydown", lool);
 
-    list_command = ["bio","about","skills","contact","social","quote","clear"];
-    function lool(){
-    if (event.keyCode === 13) {
-    if( list_command.includes(boom.value) == true){
-      var key = list_command.indexOf(boom.value);
-      run_command();
-    }
-    else{
-      no_run_command();
-    }
-   }
-  
-   function run_command(){
-    console.log("Your Command is running..."+boom.value);
-    var output = document.createElement("p");    
-    output.innerHTML = my_data[key].show_data;
-    document.getElementById("playground").appendChild(output);
-    next();
-   }
-
-   function no_run_command(){
-    console.log("No Command is running..."+boom.value);
-    var output = document.createElement("p");    
-    output.innerHTML = "Sorry Error";
-    document.getElementById("playground").appendChild(output);
-    next();
-   }
-
-    function next(){
-    var output = document.createElement("input"); 
-    output.setAttribute('type', 'text');
-    output.placeholder = ">";
-    output.onkeydown = "lool()";
-    document.getElementById("playground").appendChild(output);
-    boom = document.getElementById("playground").lastElementChild;
-  }
-}
-
-console.log("Ok ! I am looking at you...");
+    
