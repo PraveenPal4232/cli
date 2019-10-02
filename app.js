@@ -81,12 +81,12 @@ player.addEventListener("keyup", function(event) {
 
 function chacker(){
     for(i=0; i<my_data.length; i++){
-      if ( player.value == my_data[i].data_key){
+      if ( player.value === my_data[i].data_key){
       key = i;
-      if (player.value == my_data[6]){
+      if (player.value === my_data[6]){
         clear();
       }
-      else if(player.value == my_data[5]){
+      else if(player.value === my_data[5]){
         quote();
       }
       else{
