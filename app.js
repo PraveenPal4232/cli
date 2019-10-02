@@ -71,7 +71,6 @@ play.lastElementChild.addEventListener("keyup", function(event) {
     event.preventDefault();
     console.log("Running Command...");
     chacker();
-    next();
   }
 });
 
@@ -97,13 +96,12 @@ function true_command(){
   var output = document.createElement("p");
   output.innerHTML = my_data[key].show_data;
   play.insertBefore(output,play.lastElementChild);
-  //play.appendChild(output);
 }
 
 function false_command(){
   var output = document.createElement("p");
   output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
   play.insertBefore(output,play.lastElementChild);
- // play.appendChild(output);
 }
+
 
