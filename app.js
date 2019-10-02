@@ -122,7 +122,9 @@ function clear(){
 }
 
 function quote(){
-  my_data[key].show_data[Math.floor(Math.random() * 24)];
+  var output = document.createElement("p");
+  output.innerHTML = my_data[key].show_data[Math.floor(Math.random() * 24)];
+  play.insertBefore(output,player);
   next();
 }
 
