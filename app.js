@@ -63,7 +63,7 @@ var my_data = [
     ];
 
     // Get the input field
-    var input = document.getElementById("playground").lastChild;
+    var input = document.getElementById("playground").lastElementChild;
     console.log(input);
 
 input.addEventListener("keyup", function(event) {
