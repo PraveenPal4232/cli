@@ -60,6 +60,11 @@ var my_data = [
       data_key:"clear",
       show_data:"Are you sure?",
     },
+    {
+      id:7,
+      data_key:"help",
+      show_data:"Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]",
+    },
     ];
 
 var play = document.getElementById("playground");
@@ -98,7 +103,7 @@ function true_command(){
 
 function false_command(){
   var output = document.createElement("p");
-  output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
+  output.innerHTML = my_data[7].show_data;
   play.insertBefore(output,player);
   player.value = "";
 }
