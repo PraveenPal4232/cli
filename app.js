@@ -74,7 +74,7 @@ var key;
 player.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
-    console.log("Running Command...");
+    // console.log("Running Command...");
     chacker();
   }
 });
