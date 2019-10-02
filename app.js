@@ -96,18 +96,23 @@ function chacker(){
 function true_command(){
   var output = document.createElement("p");
   output.innerHTML = my_data[key].show_data;
-  play.appendChild(output);
+  play.insertBefore(output,play.lastElementChild);
+  //play.appendChild(output);
 }
 
 function false_command(){
   var output = document.createElement("p");
   output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
-  play.appendChild(output);
+  play.insertBefore(output,play.lastElementChild);
+ // play.appendChild(output);
 }
+
+/*
 
 function next(){
   var my_next = document.createElement("input");
   my_next.type = "text";
   my_next.placeholder = ">";
-  play.appendChild(my_next);
+  play.insertBefore(my_next,play.lastElementChild);
+  //play.appendChild(my_next);
 }
