@@ -63,9 +63,10 @@ var my_data = [
     ];
 
 var play = document.getElementById("playground");
+var player = document.getElementById("player");
 var key;
 
-play.lastElementChild.addEventListener("keyup", function(event) {
+player.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
     console.log("Running Command...");
@@ -75,7 +76,7 @@ play.lastElementChild.addEventListener("keyup", function(event) {
 
 function chacker(){
     for(i=0; i<my_data.length; i++){
-      if ( play.lastElementChild.value == my_data[i].data_key){
+      if ( player.value == my_data[i].data_key){
       key = i;
       true_command();
       break;
@@ -91,21 +92,14 @@ function chacker(){
 function true_command(){
   var output = document.createElement("p");
   output.innerHTML = my_data[key].show_data;
-  play.insertBefore(output,play.lastElementChild);
+  play.insertBefore(output,player);
 }
 
 function false_command(){
   var output = document.createElement("p");
   output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
-  play.insertBefore(output,play.lastElementChild);
+  play.insertBefore(output,player);
 }
 
-function next(){
-  /*
-  var output = document.createElement(input);
-  output.type = "text";
-  output.placeholder = ">";
-  play.replaceChild(output,play.lastElementChild);
-  */
- 
-}
+player.value = "";
+
