@@ -83,7 +83,6 @@ function chacker(){
     for(i=0; i<my_data.length; i++){
       if ( player.value == my_data[i].data_key){
       key = i;
-      break;
       if (player.value == clear){
         clear();
       }
@@ -93,6 +92,7 @@ function chacker(){
       else{
         true_command();
       }
+      break;
     }
     else{
       if( i == my_data.length-1){
