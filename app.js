@@ -107,12 +107,3 @@ function false_command(){
  // play.appendChild(output);
 }
 
-/*
-
-function next(){
-  var my_next = document.createElement("input");
-  my_next.type = "text";
-  my_next.placeholder = ">";
-  play.insertBefore(my_next,play.lastElementChild);
-  //play.appendChild(my_next);
-}
