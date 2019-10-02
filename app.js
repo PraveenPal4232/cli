@@ -116,5 +116,10 @@ function false_command(){
   player.value = "";
 }
 
+function clear(){
+  console.log("clear is running...");
+}
 
-
+function quote(){
+  my_data[key].show_data[Math.floor(Math.random() * 24)]
+}
