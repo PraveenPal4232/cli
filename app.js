@@ -63,12 +63,23 @@ var my_data = [
     ];
 
     // Get the input field
-    var input = document.getElementById("playground").lastElementChild;
+    var input = document.getElementById("playground");
     console.log(input);
 
-input.addEventListener("keyup", function(event) {
+input.lastElementChild.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
-    console.log("working Now");
+    console.log("Running Command...");
+    chacker();
   }
 });
+
+function chacker(){
+  console.log("Running Chack...");
+}
+
+function next(){
+  var my_next = document.createElement("input");
+  my_next.type = "text";
+  input.appendChild(my_next);
+}
