@@ -19,6 +19,7 @@ input{
     color: chartreuse;
     font-family: 'Lekton', sans-serif;
     font-size: 1em;
+    display: block;
 }
 input::placeholder{
     color: chartreuse; 
