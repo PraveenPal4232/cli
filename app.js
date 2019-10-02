@@ -69,6 +69,6 @@ var my_data = [
 // Execute a function when the user releases a key on the keyboard
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
-    console.log("Working");
+    event.preventDefault();
   }
 });
