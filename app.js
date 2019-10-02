@@ -83,7 +83,15 @@ function chacker(){
     for(i=0; i<my_data.length; i++){
       if ( player.value == my_data[i].data_key){
       key = i;
-      true_command();
+      if (player.value == clear){
+        clear();
+      }
+      else if(player.value == quote){
+        quote();
+      }
+      else{
+        true_command();
+      }
       break;
     }
     else{
