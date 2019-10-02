@@ -24,3 +24,7 @@ input{
 input::placeholder{
     color: chartreuse; 
 }
+::selection{
+    color: black;
+    background: chartreuse;
+}
