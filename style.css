@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Lekton&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Lekton', sans-serif;
+    font-family: monospace;
     background-color: black;
     color: chartreuse;
     padding: 10vh 10vw;
     border:1px chartreuse dashed;
     min-height: 100vh;
+    line-height: 1.6rem;
+    font-size: 20px;
+}
+p,
+input{
+    margin-bottom: .5em;
 }
 input{
     outline: none;
     border: none;
     background-color: transparent;
     color: chartreuse;
-    font-family: 'Lekton', sans-serif;
-    font-size: 1em;
+    font-family: monospace;
+    font-size: 20px;
     display: block;
 }
 input::placeholder{
