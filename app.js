@@ -62,9 +62,8 @@ var my_data = [
     },
     ];
 
-    // Get the input field
-    var play = document.getElementById("playground");
-    // console.log(input);
+var play = document.getElementById("playground");
+var key;
 
 play.lastElementChild.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
@@ -74,10 +73,7 @@ play.lastElementChild.addEventListener("keyup", function(event) {
   }
 });
 
-var key;
-
 function chacker(){
-
     for(i=0; i<my_data.length; i++){
       if ( play.lastElementChild.value == my_data[i].data_key){
       key = i;
@@ -104,4 +100,12 @@ function false_command(){
   play.insertBefore(output,play.lastElementChild);
 }
 
-
+function next(){
+  /*
+  var output = document.createElement(input);
+  output.type = "text";
+  output.placeholder = ">";
+  play.replaceChild(output,play.lastElementChild);
+  */
+ 
+}
