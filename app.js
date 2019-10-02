@@ -69,6 +69,6 @@ var my_data = [
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
-    document.getElementById("myBtn").click();
+    console.log("working Now");
   }
 });
