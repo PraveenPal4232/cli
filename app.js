@@ -106,20 +106,26 @@ function true_command(){
   var output = document.createElement("p");
   output.innerHTML = my_data[key].show_data;
   play.insertBefore(output,player);
-  player.value = "";
+  next();
 }
 
 function false_command(){
   var output = document.createElement("p");
   output.innerHTML = my_data[7].show_data;
   play.insertBefore(output,player);
-  player.value = "";
+  next();
 }
 
 function clear(){
   console.log("clear is running...");
+  next();
 }
 
 function quote(){
-  my_data[key].show_data[Math.floor(Math.random() * 24)]
+  my_data[key].show_data[Math.floor(Math.random() * 24)];
+  next();
+}
+
+function next(){
+  player.value = "";
 }
