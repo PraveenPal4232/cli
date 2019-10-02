@@ -75,21 +75,34 @@ play.lastElementChild.addEventListener("keyup", function(event) {
   }
 });
 
+var key;
+
 function chacker(){
-  if ( play.lastElementChild == my_data[0].data_key){
-    true_command();
-  }
-  else{
-    false_command();
+
+    for(i=0; i<my_data.length; i++){
+      if ( play.lastElementChild.value == my_data[i].data_key){
+      key = i;
+      true_command();
+      break;
+    }
+    else{
+      if( i == my_data.length-1){
+        false_command();
+      }
+    }
   }
 }
 
 function true_command(){
-  console.log("True Command...");
+  var output = document.createElement("p");
+  output.innerHTML = my_data[key].show_data;
+  play.appendChild(output);
 }
 
 function false_command(){
-  console.log("false Command...");
+  var output = document.createElement("p");
+  output.innerHTML = "Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]";
+  play.appendChild(output);
 }
 
 function next(){
