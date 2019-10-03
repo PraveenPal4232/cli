@@ -91,6 +91,7 @@ function chacker(){
       default : true_command();
       break;
     }
+    break;
   }
     else{
       if( i == my_data.length-1){
