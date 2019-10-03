@@ -26,6 +26,10 @@ input{
     font-size: 20px;
     display: block;
 }
+a{
+    color: chartreuse;
+    text-decoration: none;
+}
 input::placeholder{
     color: chartreuse; 
 }
