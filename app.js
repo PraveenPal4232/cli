@@ -105,7 +105,7 @@ function chacker(){
 function true_command(){
   var output = document.createElement("p");
   output.innerHTML = my_data[key].show_data;
-  play.insertBefore(output,player);
+  play.appendChild(output); 
   next();
 }
 
