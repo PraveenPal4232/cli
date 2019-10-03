@@ -116,7 +116,7 @@ function false_command(){
 }
 
 function clear(){
-  console.log("clear is running...");
+  play.innerHTML = "";
   next();
 }
 
