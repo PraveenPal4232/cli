@@ -112,7 +112,7 @@ function true_command(){
 function false_command(){
   var output = document.createElement("p");
   output.innerHTML = my_data[7].show_data;
-  play.insertBefore(output,player);
+  play.appendChild(output); 
   next();
 }
 
@@ -124,7 +124,7 @@ function clear(){
 function quote(){
   var output = document.createElement("p");
   output.innerHTML = my_data[key].show_data[Math.floor(Math.random() * 24)];
-  play.insertBefore(output,player);
+  play.appendChild(output); 
   next();
 }
 
