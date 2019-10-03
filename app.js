@@ -83,24 +83,21 @@ function chacker(){
     for(i=0; i<my_data.length; i++){
       if ( player.value === my_data[i].data_key){
       key = i;
-      if (player.value === my_data[6].data_key){
-        clear();
-      }
-      else if(player.value === my_data[5].data_key){
-        quote();
-      }
-      else{
-        true_command();
-      }
+      switch(key){
+      case 6 : clear();
+      break;
+      case 5 : quote();
+      break;
+      default : true_command();
       break;
     }
+  }
     else{
       if( i == my_data.length-1){
         false_command();
       }
     }
   }
-}
 
 function true_command(){
   var output = document.createElement("p");
