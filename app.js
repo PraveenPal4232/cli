@@ -98,6 +98,7 @@ function chacker(){
       }
     }
   }
+}
 
 function true_command(){
   var output = document.createElement("p");
