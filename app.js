@@ -84,9 +84,11 @@ function chacker(){
       if ( player.value === my_data[i].data_key){
       key = i;
       switch(key){
-      case 6 : clear();
+      case 4 : social();
       break;
       case 5 : quote();
+      break;
+      case 6 : clear();
       break;
       default : true_command();
       break;
