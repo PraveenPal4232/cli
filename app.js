@@ -63,7 +63,7 @@ var my_data = [
     {
       id:7,
       data_key:"help",
-      show_data:"Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear]",
+      show_data:"Available commands - [about] [bio] [contact] [skills] [social] [quote] [clear] [help]",
     },
     ];
 
