@@ -131,7 +131,7 @@ function quote(){
 
 function social(){
   var output = document.createElement("p");
-  output.innerHTML = '<a href="#"> Github </a> <a href="#"> Twitter </a> <a href="#"> Linkedin </a>';
+  output.innerHTML = '<a href="https://github.com/PraveenPal4232" target="_blank"> Github </a> <a href="#"> Twitter </a> <a href="#"> Linkedin </a>';
   play.appendChild(output); 
   next();
 }
