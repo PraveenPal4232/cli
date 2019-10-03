@@ -129,6 +129,13 @@ function quote(){
   next();
 }
 
+function social(){
+  var output = document.createElement("p");
+  output.innerHTML = '<a href="#"> Github </a> <a href="#"> Twitter </a> <a href="#"> Linkedin </a>';
+  play.appendChild(output); 
+  next();
+}
+
 function next(){
   player.value = "";
 }
