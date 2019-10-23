@@ -2,7 +2,7 @@ var my_data = [
     {
       id:0,
       data_key:"bio",
-      show_data:"#FrontEnd Developer, #UI & #UX Designer,enthusiastic #webdev , and architect of my #Dreams",
+      show_data:"#FrontEnd Developer, #UI & #UX Designer,enthusiastic #webdev , and architect of my #Dreams.",
     },
     {
       id:1,
