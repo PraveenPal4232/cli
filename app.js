@@ -52,7 +52,8 @@ var my_data = [
         "Failure is not the opposite of success. It’s part of success.",
         "No one has ever become poor by giving.",
         "No matter what people tell you, words and ideas can change the world.",
-        "Those who dare to fail miserably can achieve greatly.",
+        "Those who dare to fail miserably can achieve greatly.",,
+        "If you can thin, Then you can do."
       ],
     },
     {
