@@ -53,7 +53,7 @@ var my_data = [
         "No one has ever become poor by giving.",
         "No matter what people tell you, words and ideas can change the world.",
         "Those who dare to fail miserably can achieve greatly.",,
-        "If you can thin, Then you can do."
+        "If you can think, then you can do."
       ],
     },
     {
