@@ -54,7 +54,8 @@ var my_data = [
         "No matter what people tell you, words and ideas can change the world.",
         "Those who dare to fail miserably can achieve greatly.",
         "If you can think, then you can do.",
-        "Be yourself; everyone else is already taken."
+        "Be yourself; everyone else is already taken.",
+        "Be mindful. Be grateful. Be positive. Be true. Be kind."
       ],
     },
     {
