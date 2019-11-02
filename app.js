@@ -55,7 +55,8 @@ var my_data = [
         "Those who dare to fail miserably can achieve greatly.",
         "If you can think, then you can do.",
         "Be yourself; everyone else is already taken.",
-        "Be mindful. Be grateful. Be positive. Be true. Be kind."
+        "Be mindful. Be grateful. Be positive. Be true. Be kind.",
+        "In the end, it's not the years in your life that count. It's the life in your years."
       ],
     },
     {
