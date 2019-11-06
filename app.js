@@ -56,7 +56,8 @@ var my_data = [
         "If you can think, then you can do.",
         "Be yourself; everyone else is already taken.",
         "Be mindful. Be grateful. Be positive. Be true. Be kind.",
-        "In the end, it's not the years in your life that count. It's the life in your years."
+        "In the end, it's not the years in your life that count. It's the life in your years.",
+        "Two things are infinite, the universe and human stupidity and I 'm not sure about the universe."
       ],
     },
     {
