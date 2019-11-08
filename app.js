@@ -57,7 +57,8 @@ var my_data = [
         "Be yourself; everyone else is already taken.",
         "Be mindful. Be grateful. Be positive. Be true. Be kind.",
         "In the end, it's not the years in your life that count. It's the life in your years.",
-        "Two things are infinite, the universe and human stupidity and I 'm not sure about the universe."
+        "Two things are infinite, the universe and human stupidity and I 'm not sure about the universe.",
+        "I believe that everything happens for a reason. People change so that you can learn to let go, things go wrong so that you appreciate them when they are right, you believe lies so you eventually learn to trust no one but yourself, and sometimes good things fall apart so better things can fall together.",
       ],
     },
     {
